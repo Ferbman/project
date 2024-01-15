@@ -17,6 +17,17 @@ class CartPage extends StatelessWidget {
               color: const Color.fromARGB(255, 213, 215, 220),
             ),
             child: Column(children: [
+              Container(
+                alignment: AlignmentDirectional.topStart,
+                padding: EdgeInsets.only(left: 35),
+                child: Text(
+                  "Başvurularım",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30,
+                  ),
+                ),
+              ),
               CartItems(),
             ]),
           )

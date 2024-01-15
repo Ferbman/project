@@ -13,7 +13,7 @@ class ProfilePage extends StatelessWidget {
         children: [
           EasyAppBar(),
           Container(
-            height: 600,
+            height: 800,
             padding: EdgeInsets.only(top: 15),
             decoration: BoxDecoration(
               color: const Color.fromARGB(255, 213, 215, 220),

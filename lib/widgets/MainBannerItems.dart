@@ -30,24 +30,15 @@ class MainBannerItems extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
-                      "Ürün",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'Montserrat',
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
                     Container(
                       padding: EdgeInsets.all(5),
                       decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 87, 143, 255),
+                        color: Colors.green,
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Text(
-                        "Fiyat",
+                        "Ürün İsmi",
                         style: TextStyle(
-                          fontSize: 14,
                           color: Colors.white,
                           fontFamily: 'Montserrat',
                           fontWeight: FontWeight.w600,

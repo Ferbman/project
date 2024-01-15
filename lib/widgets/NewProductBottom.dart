@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CartBottomBar extends StatelessWidget {
+class NewProductBottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
       height: 100,
+      color: Color.fromARGB(255, 228, 226, 226),
       child: Container(
         padding: EdgeInsets.symmetric(
           horizontal: 20,
@@ -25,7 +26,7 @@ class CartBottomBar extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
-                  "Satın Al",
+                  "İşelmi bitir",
                   style: TextStyle(
                     fontFamily: 'Monstrat',
                     fontWeight: FontWeight.bold,

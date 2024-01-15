@@ -58,20 +58,11 @@ class ItemsWidget extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Container(
-                        alignment: Alignment.bottomLeft,
-                        child: Text(
-                          "price",
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
-                            color: Colors.green,
-                          ),
-                        ),
-                      ),
+                      Spacer(),
                       Icon(
                         Icons.add_shopping_cart_outlined,
                         color: Colors.green,
-                      )
+                      ),
                     ],
                   ),
                 ),

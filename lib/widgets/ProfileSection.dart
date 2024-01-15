@@ -65,6 +65,7 @@ class ProfileSection extends StatelessWidget {
         ),
         InkWell(
           onTap: () {
+            Navigator.pushNamed(context, "newProduct");
             // burayı doldur
           },
           child: Container(

@@ -60,7 +60,7 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                   child: Text(
-                    "Best Selling",
+                    "Ürünler",
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.w600,
